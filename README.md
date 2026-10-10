@@ -37,7 +37,7 @@
 
 ---
 
-## Install
+## Install.
 
 **Windows** - run the signed installer, then launch Dynex Wallet from the Start menu.
 ```powershell
