@@ -33,11 +33,11 @@
 <!-- SHA256:END -->
 
 > [!IMPORTANT]
-> Checksums update automatically whenever installer files are re-uploaded to the release. Compare every character before running a file. Full walkthrough: [verify a Dynex Wallet download](https://github.com/Dynex-project/Dynex-Wallet-Docs/blob/main/docs/verify-dynex-wallet-sha256-checksum.md).
+> Checksums are refreshed by the release workflow whenever installer files are re-uploaded. Compare every character before running a file. Safe download walkthrough: [download Dynex Wallet from the official release page](https://github.com/Dynex-project/Dynex-Wallet-Docs/blob/main/docs/download-dynex-wallet-official-release.md).
 
 ---
 
-## Install.
+## Install
 
 **Windows** - run the signed installer, then launch Dynex Wallet from the Start menu.
 ```powershell
