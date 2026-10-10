@@ -1,4 +1,4 @@
-"""Refresh every <!-- SHA256:START --> block from the Dynex Wallet release files."""
+"""Refresh the SHA-256 block in README.md and the release description ONLY (no other files)."""
 import hashlib, json, os, re, glob, urllib.request
 OWNER, APP, TAG = "Dynex-project", "Dynex-Desktop-Wallet", os.environ.get("TAG", "v2.2.3")
 TOKEN = os.environ.get("GITHUB_TOKEN", "")
@@ -23,7 +23,7 @@ for a in sorted(rel["assets"], key=lambda a: min([v for k, v in order.items() if
 block = "<!-- SHA256:START -->\n| Platform | File | SHA-256 |\n|---|---|---|\n" + "\n".join(rows) + "\n<!-- SHA256:END -->"
 pat = re.compile(r"<!-- SHA256:START -->.*?<!-- SHA256:END -->", re.S)
 changed = 0
-for p in glob.glob("**/*.md", recursive=True):
+for p in ["README.md"]:
     t = open(p, encoding="utf-8").read()
     n = pat.sub(block, t)
     if n != t: open(p, "w", encoding="utf-8").write(n); changed += 1
