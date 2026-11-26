@@ -57,7 +57,7 @@ Upgrading in place keeps the wallet file and the chain data, provided the old ap
 | App will not open on macOS | Right-click the app, choose Open, and confirm once for the notarised build. |
 | Windows SmartScreen blocks the installer | Choose More info, then Run anyway, after comparing the SHA-256 value above. |
 
-## Questions people ask
+## Questions people ask.
 
 ### Is Dynex Wallet a custodial service?
 
